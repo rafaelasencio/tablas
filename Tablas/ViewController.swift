@@ -53,11 +53,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             tableView.reloadData()
         }
     }
-    /*
+    
      func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath)
      {
      }
-     */
+ 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     
     if segue.identifier == "pantallaDosSegue" {
